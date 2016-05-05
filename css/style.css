@@ -1,0 +1,67 @@
+body{
+    width: 100%;
+    height: auto;
+    font-family: "Roboto Condensed", sans-serif; 
+}
+
+.rel-block{position: relative; display: block;}
+.rel-inlblock{position: relative; display: inline-block;}
+.abs-block{position: absolute; display: inline-block;}
+.abs-inlblock{position: absolute; display: inline-block;}
+.right-panel{height: 50%;}
+.info-header{padding-left: 18px;padding-top: 18px;color: red;font-size: 24px;}
+.fitalic{font-style: italic;padding-bottom: 15px;}
+.info-body{display: block;font-style: italic;margin: 0 auto;position: relative;width: 80%;}
+.hovered{background-color: red!important;cursor: pointer!important;}
+.tips{background-color: #f6edcc;}
+.found{
+  background: linear-gradient(top, #549ed6, #4291ce)!important;
+  background: -webkit-linear-gradient(top, #549ed6, #4291ce)!important;
+  background: -moz-linear-gradient(top, #549ed6, #4291ce)!important;
+  background: -o-linear-gradient(top, #549ed6, #4291ce)!important;
+  color: #efe58b!important;
+}
+
+.wrapper{
+    max-width: 810px;
+    min-width: 320px;
+    height: 575px;
+    margin: 0 auto;
+    background-color: #d7e9f8;
+}
+
+#game{
+    width: 70%;
+}
+
+#game tbody{
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+#game tr{
+  text-align: center;
+}
+
+#game td{
+  background-color: #fff;
+  border-radius: 15%;
+  box-shadow: 1px 1px 1px #888;
+  color: #d3d4d9;
+  font-size: 30px;
+  height: 67px;
+  width: 12.5%;
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; 
+}
+
+.info{
+    width: 30%;
+    background-color: #fcf7df;
+    height: 100%;
+    vertical-align: top;
+}
